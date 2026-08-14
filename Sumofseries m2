@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int x, n;
+    long long sum = 0;
+
+    cout << "Enter x and n: ";
+    cin >> x >> n;
+
+    for (int i = 0; i <= n; i++) {
+        sum = sum + pow(x, i);
+    }
+
+    cout << "Sum = " << sum;
+
+    return 0;
+}
